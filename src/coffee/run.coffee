@@ -29,8 +29,6 @@ argv = require('optimist')
   .describe('logSilent', 'use console to print messages')
   .describe('timeout', 'Set timeout for requests')
   .default('fetchHours', 48) # let's keep it limited to 48h
-  .default('standardShippingMethod', 'None')
-  .default('exportUnsyncedOnly', true)
   .default('targetDir', path.join(__dirname,'../exports'))
   .default('useExportTmpDir', false)
   .default('fileWithTimestamp', false)
