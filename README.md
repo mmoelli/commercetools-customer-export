@@ -30,7 +30,7 @@ Customers exported in CSV are stored in a single file
 > At the moment you need to provide a `--csvTemplate` with headers in order to export related fields (see [examples](data)).
 
 ```csv
-id,customerNumber,
+id,customerNumber
 ```
 
 The following headers can be used in the CSV template
