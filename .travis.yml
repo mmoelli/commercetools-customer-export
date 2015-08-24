@@ -11,7 +11,7 @@ before_script:
 - ./create_config.sh
 script:
 - grunt test
-- ./bin/product-csv-sync import --projectKey ${COMMERCETOOLS_PROJECT_KEY} --clientId ${COMMERCETOOLS_CLIENT_ID} --clientSecret ${COMMERCETOOLS_CLIENT_SECRET} --csvTemplate data/template-customer-simple.csv
+- ./bin/customer-export --projectKey ${COMMERCETOOLS_PROJECT_KEY} --clientId ${COMMERCETOOLS_CLIENT_ID} --clientSecret ${COMMERCETOOLS_CLIENT_SECRET} --csvTemplate data/template-customer-simple.csv
 env:
   global:
   - secure: KRJn/gIm/cylfSrgy3oRtnD6Ms5iQQMVtLCiq/serwPbtZELDi2NjcnxNcmwJAMFeZiZDKqKntnsv12sTrz4/9ULbOx7L4wCO+np2iWI3bnaY2LQc1fO0uiZPEub/ZqgQH7Fsc9zZUeMPeNZU7W51Cy7pX/Q/uiqoxrNLr7N9f+aIk5OqxeXyHphG4pyqiuiC0BzAKHDNPIAOxI1veDJpn9MYr4CNbsD9G38zAZRl90MpqhrjvktZ15wppH7swzRO7lhuSpVQ/GdaFU9RjHwNv8RtfoGpH4Ew/Oi2t13zCyb9VxGdwIuL+P20W7q2eFpDsGI1+9Zhi+6a1V6kLquIJJINSRc+fPxZSD2/kG4WnU91yzIul8Hn4UGkSn1YP1+b+OzQ5EBFCD2JZpv45QuhXpNl/D08VRDKW6Mz2zaexKt5QyyjwySIgg7BuaUYFoKllU/7KBQqg1CUW7DKgCZmKnzuj8Sl4maWsUlNPd9r0/kWmvgGxmlPhQSev2CgdsM75iJlDiGZLEoVMwN3pfqk82/ttc+YBSRWH4kTx8euNMaZTnvbiL/HetU7fx8VZjsuv59YQpnFAJlIxgR3xqJkL0fEljoxRAIiD/YEZ8cVIZZP3b0wRyoUNWYrcqcSvygLFgOfFgPjY4hLKse+viHhVdgt5BGZljouZSZs8whU9Q=
