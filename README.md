@@ -1,4 +1,4 @@
-![commercetools icon](https://admin.sphere.io/assets/images/sphere_logo_rgb_long.png)
+![commercetools icon](http://www.commercetools.com/assets/img/orange-logo-horizontal-300wd.png)
 
 # Customer export
 
